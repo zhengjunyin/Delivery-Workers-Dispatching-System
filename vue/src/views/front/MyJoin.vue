@@ -152,10 +152,10 @@ onMounted(() => {
                   {{ activities.find(a => a.id === item.itemId)?.startDate}} - {{ activities.find(a => a.id === item.itemId)?.endDate}}
                 </span>
               </div>
-<!--              <div class="detail-group">-->
-<!--                <span class="detail-label">{{ $tr('Participation Time:') }}</span>-->
-<!--                <span class="detail-value">{{ item.time || '-' }}</span>-->
-<!--              </div>-->
+              <div class="detail-group">
+                <span class="detail-label">{{ $tr('Participation Time:') }}</span>
+                <span class="detail-value">{{ item.time || '-' }}</span>
+              </div>
               <div class="detail-group">
                 <span class="detail-label">{{ $tr('Participant:') }}</span>
                 <span class="detail-value">{{ item.name || '-' }}</span>
